@@ -1,0 +1,1005 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 430px;
+  height: 932px;
+  margin: 0 auto;
+  background: #00070d;
+  overflow: hidden;
+  border-radius: 40px;
+}
+.rectangle {
+  position: relative;
+  width: 391.879px;
+  height: 284.546px;
+  margin: 488px 0 0 -538px;
+  background: url(https://static.codia.ai/image/2025-03-12/ed91cbf1-f6ba-4b45-b277-a389a066d96d.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 5;
+  overflow: visible auto;
+  backdrop-filter: blur(17px);
+}
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 60px;
+  position: relative;
+  width: 339.22px;
+  margin: 26.142px 0 0 26.142px;
+  z-index: 6;
+}
+.frame-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  width: 326.578px;
+  z-index: 7;
+}
+.frame-2 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 16px;
+  position: relative;
+  width: 178.233px;
+  z-index: 8;
+}
+.image {
+  flex-shrink: 0;
+  position: relative;
+  width: 69.712px;
+  height: 69.712px;
+  background: url(https://static.codia.ai/image/2025-03-12/d862a582-e6a1-446f-aad9-44738367ad34.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 9;
+  border-radius: 50%;
+}
+.frame-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 4px;
+  position: relative;
+  width: 96.618px;
+  z-index: 10;
+}
+.msft {
+  align-self: stretch;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 30.612px;
+  color: #ffffff;
+  font-family: Urbanist, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.6px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 11;
+}
+.microsoft-corp {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  width: 94.183px;
+  height: 25.634px;
+  color: #818181;
+  font-family: Urbanist, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+  text-align: left;
+  z-index: 12;
+}
+.group {
+  flex-shrink: 0;
+  position: relative;
+  width: 69.712px;
+  height: 69.712px;
+  background: url(https://static.codia.ai/image/2025-03-12/b143b370-e490-46cb-a850-eff09f7276df.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 13;
+}
+.frame-4 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 14;
+}
+.frame-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  width: 176.276px;
+  z-index: 15;
+}
+.dollar-sign {
+  flex-shrink: 0;
+  position: relative;
+  width: 173.748px;
+  font-family: Urbanist, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 16;
+}
+.dollar-21312 {
+  position: relative;
+  color: #ffffff;
+  font-family: Urbanist, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  text-align: left;
+}
+.dot-87 {
+  position: relative;
+  color: #818181;
+  font-family: Urbanist, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  text-align: left;
+}
+.dollar-percent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  width: 93.188px;
+  height: 25.541px;
+  color: #73ff2d;
+  font-family: Urbanist, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+  text-align: left;
+  z-index: 17;
+}
+.group-6 {
+  flex-shrink: 0;
+  position: relative;
+  width: 82.324px;
+  height: 63.004px;
+  background: url(https://static.codia.ai/image/2025-03-12/ec910a40-da97-42d7-b644-0cb713ebd511.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 18;
+}
+.flex-column {
+  position: absolute;
+  width: 764.054px;
+  top: -144.18px;
+  bottom: 0;
+  left: -118.561px;
+  z-index: 24;
+}
+.ellipse {
+  position: absolute;
+  width: 379.492px;
+  height: 366.057px;
+  top: 0;
+  left: 0;
+  background: url(https://static.codia.ai/image/2025-03-12/817392ab-63d7-4ad3-97e5-9eabdd08aa0a.svg)
+    no-repeat center;
+  background-size: cover;
+  filter: blur(72px);
+  z-index: 2;
+}
+.image-7 {
+  position: absolute;
+  width: 429px;
+  height: 932px;
+  top: 144.18px;
+  left: 118.561px;
+  background: url(./assets/images/77827a85-0011-4123-9d32-3490ca37a52b.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 20;
+}
+.frame-8 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  position: relative;
+  width: 398px;
+  margin: 344px 0 0 16px;
+  padding: 19px 20px 19px 20px;
+  background: rgba(255, 255, 255, 0.05);
+  z-index: 30;
+  overflow: hidden;
+  border-radius: 24px;
+}
+.frame-9 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 24px;
+  position: relative;
+  width: 358px;
+  height: 527px;
+  z-index: 31;
+  overflow: hidden;
+}
+.frame-a {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 16px;
+  position: relative;
+  min-width: 0;
+  z-index: 32;
+}
+.account-settings {
+  align-self: stretch;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 29px;
+  color: #ffffff;
+  font-family: Urbanist, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  z-index: 33;
+}
+.frame-b {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 16px;
+  position: relative;
+  z-index: 34;
+}
+.frame-c {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 35;
+}
+.frame-d {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 8px;
+  position: relative;
+  width: 195px;
+  z-index: 36;
+}
+.group-e {
+  flex-shrink: 0;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: url(https://static.codia.ai/image/2025-03-12/c8322d26-9198-478f-b32d-bf8e77f88fc2.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 37;
+}
+.personal-information {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 26px;
+  color: #ffffff;
+  font-family: Urbanist, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25.6px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  z-index: 38;
+}
+.frame-f {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(https://static.codia.ai/image/2025-03-12/02c00242-7403-4273-bb54-157282138e06.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 39;
+  overflow: hidden;
+}
+.frame-10 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 40;
+}
+.frame-11 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 8px;
+  position: relative;
+  width: 194px;
+  z-index: 41;
+}
+.group-12 {
+  flex-shrink: 0;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: url(https://static.codia.ai/image/2025-03-12/835d5c14-9837-4281-8c8b-3ae72d25172a.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 42;
+}
+.password-security {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 26px;
+  color: #ffffff;
+  font-family: Urbanist, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25.6px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  z-index: 43;
+}
+.frame-13 {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(https://static.codia.ai/image/2025-03-12/37db37fe-eb1f-4969-b9c2-65cfd28f2d87.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 44;
+  overflow: hidden;
+}
+.frame-14 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 45;
+}
+.frame-15 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 8px;
+  position: relative;
+  width: 145px;
+  z-index: 46;
+}
+.group-16 {
+  flex-shrink: 0;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: url(https://static.codia.ai/image/2025-03-12/64fb2484-c5bd-4c6c-beca-88dbe48104f1.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 47;
+}
+.profile-details {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 26px;
+  color: #ffffff;
+  font-family: Urbanist, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25.6px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  z-index: 48;
+}
+.frame-17 {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(https://static.codia.ai/image/2025-03-12/30c53514-fb42-4851-a142-aecdc75573c9.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 49;
+  overflow: hidden;
+}
+.frame-18 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 50;
+}
+.frame-19 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 8px;
+  position: relative;
+  width: 107px;
+  z-index: 51;
+}
+.group-1a {
+  flex-shrink: 0;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: url(https://static.codia.ai/image/2025-03-12/8f1782c4-22aa-4347-b8ea-e36340e65d28.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 52;
+}
+.settings {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 26px;
+  color: #ffffff;
+  font-family: Urbanist, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25.6px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  z-index: 53;
+}
+.frame-1b {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(https://static.codia.ai/image/2025-03-12/97ecd36d-d530-483d-a364-f40357810cdb.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 54;
+  overflow: hidden;
+}
+.frame-1c {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 16px;
+  position: relative;
+  min-width: 0;
+  z-index: 55;
+}
+.community-settings {
+  align-self: stretch;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 29px;
+  color: #ffffff;
+  font-family: Urbanist, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  z-index: 56;
+}
+.frame-1d {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 16px;
+  position: relative;
+  z-index: 57;
+}
+.frame-1e {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 58;
+}
+.frame-1f {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 8px;
+  position: relative;
+  width: 161px;
+  z-index: 59;
+}
+.group-20 {
+  flex-shrink: 0;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: url(https://static.codia.ai/image/2025-03-12/090c0607-b1b7-4bb9-ae1b-eea114935f15.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 60;
+}
+.friends-social {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 26px;
+  color: #ffffff;
+  font-family: Urbanist, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25.6px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  z-index: 61;
+}
+.frame-21 {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(https://static.codia.ai/image/2025-03-12/29d6c76d-9cb1-49c7-8ae4-5d1c1c349a11.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 62;
+  overflow: hidden;
+}
+.frame-22 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 63;
+}
+.frame-23 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 8px;
+  position: relative;
+  width: 110px;
+  z-index: 64;
+}
+.group-24 {
+  flex-shrink: 0;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: url(https://static.codia.ai/image/2025-03-12/a8ce24f4-7f49-432d-810d-1806e068fac1.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 65;
+}
+.flow-list {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 26px;
+  color: #ffffff;
+  font-family: Urbanist, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25.6px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  z-index: 66;
+}
+.frame-25 {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(https://static.codia.ai/image/2025-03-12/2f35361f-ac29-40a9-ab59-1523afbf43b2.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 67;
+  overflow: hidden;
+}
+.frame-26 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 16px;
+  position: relative;
+  min-width: 0;
+  z-index: 68;
+}
+.other {
+  align-self: stretch;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 29px;
+  color: #ffffff;
+  font-family: Urbanist, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  z-index: 69;
+}
+.frame-27 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 16px;
+  position: relative;
+  z-index: 70;
+}
+.frame-28 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 71;
+}
+.frame-29 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 8px;
+  position: relative;
+  width: 78px;
+  z-index: 72;
+}
+.group-2a {
+  flex-shrink: 0;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: url(https://static.codia.ai/image/2025-03-12/25936aab-4fa2-4635-b2f6-f14c25b9be5d.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 73;
+}
+.faq {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 26px;
+  color: #ffffff;
+  font-family: Urbanist, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25.6px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  z-index: 74;
+}
+.frame-2b {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(https://static.codia.ai/image/2025-03-12/07b5a39c-998f-4cb8-b238-a0636d234f46.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 75;
+  overflow: hidden;
+}
+.frame-2c {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 76;
+}
+.frame-2d {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 8px;
+  position: relative;
+  width: 102px;
+  z-index: 77;
+}
+.group-2e {
+  flex-shrink: 0;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: url(https://static.codia.ai/image/2025-03-12/1f014a90-34a0-4b19-ae94-0a90cd27715b.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 78;
+}
+.flow-list-2f {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 22px;
+  color: #ffffff;
+  font-family: Urbanist, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  z-index: 79;
+}
+.frame-30 {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(https://static.codia.ai/image/2025-03-12/8a2e7dc7-59a9-4e4e-8dda-aa9d04929f23.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 80;
+  overflow: hidden;
+}
+.rectangle-31 {
+  position: absolute;
+  width: 429px;
+  height: 181px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 387.576px;
+  height: 54px;
+  margin: 0 0 0 41.924px;
+  z-index: 23;
+}
+.time {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 37px;
+  height: 22px;
+  color: #f6f6f6;
+  font-family: SF Pro, var(--default-font-family);
+  font-size: 17px;
+  font-weight: 590;
+  line-height: 22px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 22;
+}
+.levels {
+  flex-shrink: 0;
+  position: relative;
+  width: 140.5px;
+  height: 54px;
+  background: url(https://static.codia.ai/image/2025-03-12/0ec49848-13ea-4682-b971-9ed9b588d8b9.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 23;
+}
+.flex-row-32 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 222px;
+  height: 48px;
+  margin: 18.382px 0 0 16px;
+  z-index: 82;
+}
+.group-33 {
+  flex-shrink: 0;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  background: url(https://static.codia.ai/image/2025-03-12/1491c19c-dc8a-44e4-b46f-08f19c156d22.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 81;
+}
+.profile-34 {
+  flex-shrink: 0;
+  position: relative;
+  height: 22px;
+  color: #ffffff;
+  font-family: Urbanist, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  z-index: 82;
+}
+.frame-35 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 20px;
+  position: absolute;
+  width: 197px;
+  height: 195px;
+  top: 121px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 25;
+}
+.group-36 {
+  flex-shrink: 0;
+  position: relative;
+  width: 119px;
+  height: 119px;
+  background: url(https://static.codia.ai/image/2025-03-12/4d004845-1683-4db5-8a6c-08a4b29a496f.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 26;
+}
+.frame-37 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 8px;
+  position: relative;
+  min-width: 0;
+  z-index: 27;
+}
+.wade-warren {
+  align-self: stretch;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 29px;
+  color: #ffffff;
+  font-family: Urbanist, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 28;
+}
+.alma-lawson {
+  align-self: stretch;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 19px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Urbanist, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 29;
+}
+.ellipse-38 {
+  position: absolute;
+  width: 379.492px;
+  height: 366.057px;
+  top: 895.18px;
+  left: 384.562px;
+  background: url(https://static.codia.ai/image/2025-03-12/a5bd8083-3640-4c5c-9d01-c83173efc472.svg)
+    no-repeat center;
+  background-size: cover;
+  filter: blur(72px);
+  z-index: 24;
+}
+.rectangle-39 {
+  position: absolute;
+  width: 112px;
+  height: 103px;
+  bottom: 0;
+  left: 487.561px;
+  background: #010101;
+  filter: blur(42px);
+}
